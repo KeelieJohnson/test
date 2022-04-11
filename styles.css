@@ -80,6 +80,12 @@ nav{
     margin-right: 100px;
     display: inline-table;
   }
+ nav ul li{
+      float: left;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    }
     nav ul li:hover{background: rgba(0,0,0,.15);}
     nav ul li:hover > ul{display: block;}
     nav ul li{
